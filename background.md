@@ -21,7 +21,7 @@ backround: red url("--") no-repeat right 100px
 
 ## 3. background-repeat
 
-1. repeat
+1. repeat ㄴ
 2. repeat-x : x축(가로축)으로만 반복
 3. repeat-y : y축(세로축)으로만 반복
 4. no-repeat
