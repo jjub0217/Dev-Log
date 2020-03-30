@@ -87,17 +87,17 @@
 
 : 문자의 정렬 방식을 지정
 
-- ㄱ. left
+- ㄱ. left      ![캡처17](https://user-images.githubusercontent.com/62126380/77907676-f783fc00-72c4-11ea-9e99-1dc75e61646f.PNG)
 
-  ㄴ. right
+  ㄴ. right    ![캡처18](https://user-images.githubusercontent.com/62126380/77907690-023e9100-72c5-11ea-93a5-ef8552c9727c.PNG)
 
-  ㄷ. center
+  ㄷ. center ![캡처19](https://user-images.githubusercontent.com/62126380/77907705-0b2f6280-72c5-11ea-83aa-d8d7667e74c8.PNG)
 
-  ㄹ. jutiify :  
+  ㄹ. jutiify 
 
-  					- 양쪽맞춤
-  					- 2줄 이상일때만 가능
-  					- 엔터쳐서 생기는 2줄 말고 줄이 길어져서 2줄 되었을 경우
+  - 양쪽맞춤
+  - 2줄 이상일때만 가능
+  - 엔터쳐서 생기는 2줄 말고 줄이 길어져서 2줄 되었을 경우
 
 ## 2. text-indent
 
