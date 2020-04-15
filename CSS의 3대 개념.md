@@ -11,7 +11,7 @@
      * font-style (글자 기울기)
      * line-height (줄 높이)
      * fone-family (폰트)
-  2. 폰트컬러
+  2. 컬러(폰트)
   3. text-align (글자정렬)
   4. text-indent (글자 들여쓰기)
   5. text-decoration (글자 밑줄)
