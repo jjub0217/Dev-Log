@@ -12,7 +12,7 @@
 
 - display 성격이 block 으로 변경된다. 
 
-  --> 요소가 flex , inline-flex 인것에는 변경 안됨.
+  --> 요소가 flex , inline-flex 인것에는 변경 안됨. 
 
 - ㄱ. none
 
