@@ -112,13 +112,7 @@
 
 ​									① strech(기본값) : 부모의 높이를 세로로 꽉꽉 늘려서 채운다.
 
-
-
-②③④⑤⑥⑦									
-
-
-
-
+![캡처39](https://user-images.githubusercontent.com/62126380/79686437-42b57d00-827b-11ea-93b9-6ca5f05d1fa8.PNG)
 
 
 
