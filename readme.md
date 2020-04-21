@@ -10,7 +10,7 @@
 
 1. CSS_Property : CSS의 속성들 관련하여 배운 내용들 + 복습 내용 + 공부한 내용 정리한 md파일들의 집합소
 
-   - [CSS의 3대 개념]([https://github.com/jjub0217/TIL/blob/master/CSS_Property/CSS%EC%9D%98_3%EB%8C%80_%EA%B0%9C%EB%85%90.md](https://github.com/jjub0217/TIL/blob/master/CSS_Property/CSS의_3대_개념.md))
+   - [CSS의 3대 개념](https://github.com/jjub0217/TIL/blob/master/CSS_Property/CSS의_3대_개념.md)
 
 2. HTML_ATTRIBUTE : HTML 속성들 광련하여 배운 내용들 + 복습 내용 + 공부한 내용 정리한 md파일들의 집합소
 
