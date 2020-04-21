@@ -34,7 +34,7 @@
 
 3. JAVA_Script : JAVA_Script 관련하여 배운 내용들 + 복습 내용 + 예습 내용 + 과제  내용 정리한 md파일들의 집합소
 
-- [JAVA Script class 1](https://github.com/jjub0217/TIL/tree/master/JAVA_Script) 
+- [JAVA Script class 1](https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트 강의 1 (20. 04. 20).md) 
 
 ---
 
