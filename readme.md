@@ -34,10 +34,14 @@
 
 3. JAVA_Script : JAVA_Script 관련하여 배운 내용들 + 복습 내용 + 예습 내용 + 과제  내용 정리한 md파일들의 집합소
 
+- [assignment](https://github.com/jjub0217/TIL/tree/master/JAVA_Script/assignment) : 과제
+
 - [JAVA Script class 1](https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md)
+  
   - 프런트엔드 개발자란
   - Computational Thinking
   - JAVA script의 소개
+  
 - [JAVA Script class 2](https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2.md)
   - 변수란
     - 식별자 / 식별자 네이밍 규칙
@@ -53,6 +57,7 @@
     - 리터럴이란(원시타입 / 객체타입 이란)
     - 표현식
     - 문
+  
 - [JAVA Script class 3](https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의3.md)
   - 데이터 타입의 필요성
     - 동적 타입 언어와 정적 타입 언어
@@ -78,13 +83,36 @@
     - if else 문
     - else if 문
     - switsh 문
-
-  - 반복문
+- 반복문
     - for 문
     - while 문
     - do...while 문
   - break 문
   - continue 문
+  
+- [JAVA Script class 5](https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_5.md)
+
+  - 객체란
+
+    - 프로퍼티
+      - 프로퍼티 키
+      - 프로퍼티 값
+    - 메소드
+      - 프로퍼티 접근
+      - 프로퍼티 값 갱신
+      - 프로퍼티 동적 생성
+      - 프로퍼티 삭제
+      - 프로퍼티 축약 표헌
+      - 프로퍼티 키 동적 생성
+
+  - 원시값과 객체의 비교
+
+    - 원시값
+      - 값에 의한 전달
+    - 객체
+      - 참조에 의한 전달
+
+    
 
 ---
 
