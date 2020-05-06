@@ -8,6 +8,8 @@
 
 <br>
 
+
+
 1. CSS_Property : CSS의 속성들 관련하여 배운 내용들 + 복습 내용 + 공부한 내용 정리한 md파일들의 집합소
 
 - [CSS의 3대 개념](https://github.com/jjub0217/TIL/blob/master/CSS_Property/CSS의_3대_개념.md)
@@ -35,6 +37,8 @@
 3. JAVA_Script : JAVA_Script 관련하여 배운 내용들 + 복습 내용 + 예습 내용 + 과제  내용 정리한 md파일들의 집합소
 
 - [assignment](https://github.com/jjub0217/TIL/tree/master/JAVA_Script/assignment) : 과제
+
+- 
 
 - [JAVA Script class 1](https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md)
   
@@ -83,6 +87,7 @@
     - if else 문
     - else if 문
     - switsh 문
+  
 - 반복문
     - for 문
     - while 문
