@@ -109,12 +109,12 @@
       - 프로퍼티 키 동적 생성
     - 메소드 축약 표현
   
-- 원시값과 객체의 비교
+  - 원시값과 객체의 비교
   
     - 원시값
       - 값에 의한 전달
     - 객체
-    - 참조에 의한 전달
+      - 참조에 의한 전달
   
 - [JAVA Script class 6](https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_6(예%2C복습).md)
 
