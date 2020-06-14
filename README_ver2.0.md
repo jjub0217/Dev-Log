@@ -28,7 +28,7 @@
 
 ---
 
-2. HTML_ATTRIBUTE : HTML 속성들 광련하여 배운 내용들 + 복습 내용 + 공부한 내용 정리한 md파일들의 집합소
+2. HTML_ATTRIBUTE : HTML 속성들 광련하여 배운 내용들 + 복습 내용 + 공부한 내용 정리한 md파일들의  집합소
 
 -  [콘텐츠, 문자 요소](https://github.com/jjub0217/TIL/blob/master/HTML_ATTRIBUTE/HTML요소(contents_and_text).md)
 
