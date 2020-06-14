@@ -54,35 +54,33 @@
                    </a></li>
            </details>
        </div>
-   ​    <br>
        <div class="class2-1">
            <details class="class2-1-1">
                <summary>변수란?</summary>
-               <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2.md">
+               <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2-1(예%2C복습).md">
                        식별자/식별자 네이밍 규칙
                    </a></li>
                <details class="class2-1-2">
                    <summary>변수 선언</summary>
-                   <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
+                    <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2-1(예%2C복습).md">
                            변수 문법</a></li>
-                   <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
+                   <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2-1(예%2C복습).md">
                            Reference Error</a></li>
-                   <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
+                    <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2-1(예%2C복습).md">
                            변수 호이스팅</a></li>
-                   <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
+                    <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2-1(예%2C복습).md">
                            값의 할당</a></li>
-                   <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
+                    <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2-1(예%2C복습).md">
                            값의 재할당</a></li>
-                   <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
+                   <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2-1(예%2C복습).md">
                            값의 교환</a></li>
                </details>
            </details>
        </div>
-   ​    <br>
        <div class="class2-2">
            <details class="class2-2-1">
                <summary>표현식과 문</summary>
-               <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
+                <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_2.md">
                        값이란?
                    </a></li>
                <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
@@ -95,7 +93,6 @@
                </a></li>
        </details>
    </div>
-   <br>
    <div class="class3-1">
        <details class="class3-1-1">
            <summary>데이터 타입</summary>
@@ -104,7 +101,6 @@
                </a></li>
        </details>
    </div>
-   <br>
    <div class="class3-2">
        <details class="class3-2-1">
            <summary>연산자</summary>
@@ -134,7 +130,6 @@
        </a></li>
        </details>
        </div>
-       <br>
        <div class="class4-1">
        <details class="class4-1-1">
            <summary>제어문</summary>
@@ -176,7 +171,6 @@
            </details>
        </details>
    </div>
-       <br>
        <div class="class4-2">
        <details class="class4-2-1">
            <summary>타입변환과 단축평가</summary>
@@ -212,7 +206,6 @@
        </a></li>
            </details>
        </div>
-       <br>
        <div class="class5-1">
        <details class="class5-1-1">
            <summary>객체 리터럴</summary>
@@ -251,10 +244,7 @@
            </details>
            </details>
        </div>
-
-   
-
-   <div class="class5-2">
+       <div class="class5-2">
        <details class="class5-2-1">
            <summary>원시 값과 객체의 비교</summary>
            <details class="class5-2-1-1">
@@ -271,8 +261,7 @@
            </details>
        </details>
    </div>
-   <br>
-   <div class="class6">
+       <div class="class6">
        <details class="class6">
            <summary>함수</summary>
            <details class="class6-1-1">
@@ -361,8 +350,7 @@
            </details>
        </details>
    </div>
-   <br>
-   <div class="class7">
+       <div class="class7">
        <details class="class7-1">
            <summary>스코프</summary>
            <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
@@ -400,8 +388,7 @@
            </details>
        </details>
    </div>
-   <br>
-   <div class="class8">
+       <div class="class8">
        <details class="class7-1">
            <summary>프로퍼티 어트리뷰트</summary>
            <details class="class7-1">
@@ -427,8 +414,7 @@
            </details>
        </details>
    </div>
-   <br>
-   <div class="dd">
+       <div class="dd">
        <details class="class8-1">
            <summary>생성자 함수에 의한 객체 생성</summary>
            <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
@@ -461,15 +447,16 @@
        </details>
    </div>
 
+   
+
+   
 
 
 
 
 
 
-- 
-- 
-- 
+
 - [JAVA Script class 1](https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md)
   - 프런트엔드 개발자란
   - Computational Thinking
