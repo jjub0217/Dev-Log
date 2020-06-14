@@ -254,6 +254,14 @@ JAVA_Script : JAVA_Script 관련하여 배운 내용들 + 복습 내용 + 예습
                 </a></li>
         </details>
         <details class="class5-2-1-2">
+                <summary>객체</summary>
+                <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1.md">
+                        참조에 의한 전달
+                    </a></li>
+            </details>
+        </details>
+    </div>
+        <details class="class5-2-1-2">
             <summary>객체</summary>
             <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_5-2(예%2C복습).md">
                     참조에 의한 전달
