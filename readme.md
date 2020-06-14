@@ -43,8 +43,8 @@ JAVA_Script : JAVA_Script 관련하여 배운 내용들 + 복습 내용 + 예습
 <body>
     <div class="class1">
       <details class="class1-1">
-            <summary>프로그래밍/자바스크립트란?자바스크립트 개발환경과 실행방법</summary>
-            <li><input type="checkbox" checked><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1(복습).md">
+            <summary><input type="checkbox" checked>프로그래밍/자바스크립트란?자바스크립트 개발환경과 실행방법</summary>
+            <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1(복습).md">
                     프런트엔드 개발자란
                 </a></li>
             <li><a href="https://github.com/jjub0217/TIL/blob/master/JAVA_Script/자바스크립트_강의_1(복습).md">
