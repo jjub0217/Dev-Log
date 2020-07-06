@@ -24,9 +24,9 @@
 
      ![캡쳐117](https://user-images.githubusercontent.com/62126380/86592535-a0ca4480-bfce-11ea-83a9-2cfb83689352.PNG)
 
-![캡쳐116](https://user-images.githubusercontent.com/62126380/86592415-652f7a80-bfce-11ea-9ecb-50e1e3af6786.PNG)
+     ![캡쳐116](https://user-images.githubusercontent.com/62126380/86592415-652f7a80-bfce-11ea-9ecb-50e1e3af6786.PNG)
 
-1. 
+5. 
 
 ## 인라인요소
 
