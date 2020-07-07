@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- 문서의 정보 -->
+    <!-- ------------------------------------------ -->
+    <!-- 1. html 문서의 제목 -->
+    <title>HTML 요소 레퍼런스</title>
+    <!-- ------------------------------------------ -->
+    <!-- 2. 기타 정보-->
+    <!-- meta charset : 문서의 인코딩 방식 설정 -->
+    <meta charset="UTF-8">
+    <!-- meta name : 문서 레벨의 메타데이터의 이름을 정의 -->
+    <meta name="author">
+    <!-- meta content : name 속성 중에, 어떤 것이 사용되느냐에 따라 값이 달라짐 -->
+    <meta content="박영웅의 사이트 입니다.">
+    <!-- meta name="viewport" : 반응형 웹사이트를 제공하기 위해서 필요한 코드  -->
+    <!-- viewport : 화면에 어떤 정보를 렌더링 하기 위한 영역을 설정할때 사용하는 정보의 종류  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------------------------------------------ -->
+    <!-- 3. css 스타일 직접 작성 -->
+    <!-- body 태그 안에 작성해도 문제없이 구동되지만, html 문서가 브라우저에서 읽히는 프로세스에서는
+        좋지 않게(느림) 구동되기 때문에 head 태그 안에 작성하는 것이 좋다  -->
+    <style>
+        /* style type="text/css" : 타입이라는 속성: 우리가 작성할 스타일 태그 안에 
+            어떤 타입의 내용을 작성할것이냐는 설정하는 역할  */
+        div {
+            color: red;
+            background: blue;
+        }
+    </style>
+    <!-- 4. 스타일 외부에서 가져와서 연결 -->
+    <!-- link type="text/css" : 어떤 타입의 내용을 작성할것이냐는 설정하는 역할-->
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <!-- 5. HTML 문서에 포함된 모든 상대 URL들의 기준 URL을 설정 -->
+    <!-- ./ : 나를 기준으로 해서 주변에서 파일경로 찾는 호호 -->
+    <!-- base: 우리가 상대경로를 입력할수 있는 특정경로를 기본적으로 정해버리는 태그-->
+    <!-- body 태그 안에 현재 img 넣은 소스와 연결되어있다. -->
+    <!-- base 태그는 한 문서에 한번만 사용 가능하다. -->
+    <base href="https://heropcode.github.io/GitHub-Responsive/">
+
+</head>
+
+<body>
+    문서의 구조
+    <img src="img/bg-small.jpg" alt="샘플 이미지">
+    <img src="img/home-ill1-build.png" alt="샘플 이미지">
+</body>
+
+</html>
