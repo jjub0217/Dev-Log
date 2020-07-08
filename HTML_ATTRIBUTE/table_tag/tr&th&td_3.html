@@ -1,0 +1,58 @@
+<!-- 표(table)을 만들때 필요한건 행과 열이다. -->
+<!-- tr(table row) : table 에서 행의 역할을 한다. -->
+<!-- th(table header) / td(table data) : table 에서 열의 역할을 한다. 
+                                         th - 열의 역할에서 제목을 의미한다.-->
+
+<!-- table : bloc 요소가 아닌 table 요소이지만, block 요소 처럼 동작한다. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid red;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        th {
+            border: 1px solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>데이터 타입과 값</caption>
+        <colgroup>
+            <col>
+            <!-- <col style="background-color: tomato;"> -->
+            <!-- <col style="background-color: tomato;"> -->
+            <col style="background-color: tomato;" span="2">
+        </colgroup>
+        <tr>
+            <th></th>
+            <th>타입</th>
+            <th>값</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>알파벳</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>숫자</td>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+
+</html>
