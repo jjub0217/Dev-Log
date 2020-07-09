@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 아래 1번의 두 코드와, 2번의 두 코드는 같은 기능을 하는 코드이다. -->
+    <!-- 일반적으로 input창을 버튼화 해서 초기화 시키는 것보다
+    button 태그를 사용해서 초기화 시키는 것이 일반적이다. -->
+    
+    <!-- 1번 -->
+    <input type="reset" value="초기화">
+    <button type="reset">초기화</button>
+   
+    <!-- 2번 -->
+    <input type="submit" value="제출">
+    <button type="submit">제출</button>
+
+    <!-- --------------------------------------- -->
+
+    <button onclick="doit()">클릭하세요</button>
+    <script>
+        function doit(){
+            alert('클릭했습니다!');
+        }
+    </script>
+</body>
+</html>
