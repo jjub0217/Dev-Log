@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- form action : action에 있는 주소로 로그인 정보가 제출된다. -->
+    <!-- method : 서버로 전송할 방식 -->
+    <form action="/login" method="GET">
+        <input type="email" name="id">
+        <input type="password" name="pw">
+        <!-- submit :  input type의 button 과 생김새는 똑같이 생겼지만, input type button 은 
+        그냥 버튼모양이고, submit 은 서버로 데이터를 전송하는 기능을 하는 버튼이다. -->
+        <input type="submit" value="로그인">
+        <!-- reset : 자기가 포함되어있는 form 태그 범위 안의 데이터들을 초기화시킨다 -->
+        <input type="reset" value="초기화">
+        <!-- input type = image : 이미지를 클릭이 되게끔, 제출버튼으로 기능한다. -->
+        <input type="image" src="multi_tag/images/heropy_small.png" alt="대체 텍스트">
+    </form>
+    <input type="text">
+    <!-- number : 강제로 숫자만 입력하게끔 기능한다.  -->
+    <!-- step : 지정한 숫자단위로 증가된다. -->
+    <input type="number" step="4">
+    <input type="checkbox" checked>
+    <!-- file: 파일 선택하게끔 기능하는 태그 -->
+    <!-- multiple : 여러 파일을 입력받게 하는 태그 -->
+    <input type="file" multiple>
+    <!-- radio : 설문지나 심리테스트의 항목에 택1 할때 사용 -->
+    <input type="radio" name="radio">
+    <input type="radio" name="radio">
+    <input type="radio" name="radio">
+</body>
+
+<!-- autocomplete : 이전에 입력한 값으로 자동완성 기능 -->
+<!-- autofocus :  페이지가 오픈됐을때, 특정한 데이터 양식부분에 포커스 기능이 생겨서 
+바로 입력 가능하게끔, input 창 테두리가 뚜렷해짐. -->
+<!-- disabled : 수정을 못하도록 칸이 막힌다. -->
+
+</html>
