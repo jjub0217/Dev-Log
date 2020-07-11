@@ -104,27 +104,27 @@ body {
 
 ```css
 div {
-    color: red; !important       /*<- !important 무한대의 점수*/
+    color: red; !important		/*<- !important 무한대의 점수*/
 }
 
 #color_yellow {
-    color: yellow; 				/*<- id선택자 100점*/
+    color: yellow;		/*<- id선택자 100점*/
 }
 
-.color_green {					/*<- class선택자 10점*/
-    color: green;
+.color_green {
+    color: green;		/*<- class선택자 10점*/
 }
 
-div {							/*<- tag선택자 1점*/
-    color: blue:
+div {
+    color: blue:		/*<- tag선택자 1점*/
 }
 
-* {								/*<- 전체 선택자 0점*/
-    color: darkblue;
+* {
+    color: darkblue;		/*<- 전체 선택자 0점*/
 }
 
-body { 							/*<- 상속 아예 점수를 계산하지 않는다*/
-    color: violet;
+body {
+    color: violet;		/*<- 상속 아예 점수를 계산하지 않는다*/
 }
 ```
 
