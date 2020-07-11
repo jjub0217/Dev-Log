@@ -15,9 +15,9 @@
 
 ## 4. h1 ~ h6
 
-- <p style=color:blue>block요소</p>
+- block요소
 
-- <p style="color:red">문서의 목차를 만드는 것처럼 사용가능</p> 
+- 문서의 목차를 만드는 것처럼 사용가능
 
 - 6단계의 구획 제목을 나타냄
 
@@ -32,7 +32,7 @@
 ex)
 
 ``` tex
-1. (h1) 오세진과의 연애
+1. (h1) James과의 연애
 	1.(h2) 데이트 장소
 	2.(h2) 연애기간
 	3.(h2) 데이트 패션
@@ -47,7 +47,7 @@ ex)
 
 ## 5. main
 
-- <p style="color:blue">block요소</p>
+- block요소
 
 - 문서 내부에 핵심적인 컨텐츠를 지칭할때 사용
 
@@ -59,9 +59,9 @@ ex)
 
 ## 6. article
 
-- <p style="color:blue">block요소</p>
+- block요소
 
-- <p style="color:red">독립적으로 구분되거나 재사용 가능한 영역에 지정</p>
+- 독립적으로 구분되거나 재사용 가능한 영역에 지정
 
 -  ***<u>h1 ~ h6 을 반드시 포함 해야 함</u>***
 
@@ -73,7 +73,7 @@ ex)
 
 ## 7. section
 
-- <p style="color:blue">block요소</p>
+- block요소
 
 - ***<u>h1 ~ h6 을 반드시 포함 해야 함</u>***
 
@@ -85,36 +85,35 @@ ex)
 
 ## 8. aside
 
-- <p style="color:blue">block요소</p>
+- block요소
 
 - 광고나 기타 맄으 등의 사이드바 설정
 - 전체적인 컨텐츠와는 구분되어지는 영역
 
 ## 9. nav
 
-- <p style="color:blue">block요소</p>
+- block요소
 
 - 다른 페이지 링크를 제공하는 영역
 
 ## 10. address
 
-- <p style="color:blue">block요소</p>
+- block요소
 
 - 연락처의 정보 제공 하는 영역
 
 - address  태그 안에 a 태그 안에 삽입 가능한 컨텐츠
 
-  ``` 컨텐츠
+  ``` html
   <address>
-  <a href="mailto: noonssub1004@gmail.com">
-  noonssub1004@gmail.com</a>
+  <a href="mailto: noonssub1004@gmail.com">noonssub1004@gmail.com</a>
   <a href="tel:+821092742066">010-92742066</a>
   </address>
   ```
 
 ## 11. DD / DD / DT
 
-- <p style="color:blue">block요소</p>
+- block요소
 
 - ㄱ. DT(Definition Term) : 용어를 정의
 
@@ -133,9 +132,9 @@ ex)
 
 ## 12. blockquote
 
-- <p style="color:blue">block요소</p>
+- block요소
 
-- <p style="color:red">일반적인 인용문을 설정</p>
+- 일반적인 인용문을 설정
 
 - cite 속성 사용 가능 ( cite의 속성값으로 url . 인용문)
 
