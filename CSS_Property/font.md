@@ -117,16 +117,18 @@
 
 ex)
 
-```
+```html
 <div clss="heropy">HEROPY</div>
+```
 
+```css
 .heropy {
 background: url("-----"); 
 text-indent: -9999px;
 }
 ```
 
- ----> 이미지의 제목을 코딩했지만 화면에 안보이게 하고싶어!!
+----> 이미지의 제목을 코딩했지만 화면에 안보이게 하고싶어!!
 ![캡처8](https://user-images.githubusercontent.com/62126380/77722280-a4921680-7030-11ea-9402-ea216d961ef0.PNG)
 
 ![캡처10](https://user-images.githubusercontent.com/62126380/77722307-bd9ac780-7030-11ea-92df-0785bb46e526.PNG)
@@ -147,12 +149,12 @@ text-indent: -9999px;
 
 ## 5. letter-spacing
 
-- 문자 사이의 간격을 설정
+- 글자와 글자 사이의 간격 너비를 설정
 - 음수값 사용 가능
 
 ## 6. word-spacing
 
-: 띄어쓰기 너비를 설정
+- 단어와 단어 사이의 간격 너비를 설정
 
 # color
 
@@ -162,7 +164,7 @@ text-indent: -9999px;
 
 ex)
 
-```
+```css
 hsla (120, 100%, 50% .3)
 hsla (색상, 채도, 명도, 투명도)
 ```
@@ -173,7 +175,7 @@ hsla (색상, 채도, 명도, 투명도)
 
 ex)
 
-``` r
+``` css
 rgb (225, 255, 255)
 ```
 
@@ -184,6 +186,6 @@ rgb (225, 255, 255)
 
 ex)
 
-```
+```css
 rgba(255,0,0,.5)
 ```
