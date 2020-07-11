@@ -14,4 +14,5 @@ CSS_Property : CSS의 속성들 관련하여 배운 내용들 + 복습 내용 + 
 - [배치요소-float](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소-float.md)
 - [배치요소-position](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소-position.md)
 - [배치요소-flex](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소-flex.md)
-- [미디어쿼리](
+- [미디어쿼리](https://github.com/jjub0217/TIL/blob/master/CSS_Property/미디어쿼리.md)
+
