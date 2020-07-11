@@ -2,64 +2,64 @@
 
 # font 
 
+- font:  기울기, 두께, 크기 / 줄높이, 글꼴
+
 - font-size 와 font-family 는 필수로 사용해야 한다.
 
-- ex) 
-
-  ```
+  ```css
   font: italic bold 20px / 1.5 "Arial", sans-serif
   ```
 
-  ----> font: 기울기 두께 크기 / 줄높이 글꼴
-
-  ___
-
-  
+  ----> 크기 와 줄높이는 크기 / 줄높이 이런 식으로,  / 로 구분하여 크기 다음 줄높이 순서를 지켜야 한다. 
 
 ## 1. font-style (글자 기울기)
 
-ㄱ. namial
+ㄱ. nomal
 
 ㄴ. italic
 
 ## 2. font-weight (글자 두께)
 
-- 부모요소보다 굵거나 얇은 폰트로 쓸 때 사용
-- 부모요소에서 상속받은 값에서 계산됨
+ㄱ. bold
 
-ㄱ. bolder
+ㄴ. bolder : 부모요소보다 두껍게 설정
 
-ㄴ. lighter
+ㄷ. lighter : 부모요소보다 얇게 설정
+
+ㄹ. 숫자 : 9단계로 설정(100 ~ 900 사이 숫자로, 100 단위로 설정)
 
 ## 3. font-size (글자 크기)
 
-## 4. line-height (줄높이) 설정
+## 4. line-height (줄높이, 행간)
 
 - 줄높이를 설정하는 역할
 
-- 크기와 줄높이는 꼭 "/" 으로,  크기 줄높이 순서로 구분해서 사용하기
-
-- 보통 1.4 ~ 1.7 배가 가독성이 좋음
-
 - 사용범위
 
-  - 그냥 숫자 : 요소 자체의 글꼴 크기의 배수 
+  - 숫자 (폰트 사이즈의 배수로 움직인다.) 
 
+    - 추천 배수: 1.4 ~ 1.7 (가독성이 좋음)
+
+      ```css
+    .box1 {
+          font-size: 16px;
+        line-height: 32px;
+      }
+      
+      .box2 {
+          font-size: 16px;
+          line-height: 2;
+    }
+      /* box1 과 box2 는 같다. */
+    ```
+  
   - 단위
-
+  
   - %
-
-    ex) 
-
-    ```
-    기본 font-size: 16px
-    ---------------------
-    line-height: 2
-    ```
-
-    ----> line-height 값이 font-size 16px 의 2배인 32px이 됨.
-
-    ![캡처7](https://user-images.githubusercontent.com/62126380/77647570-fa6fab80-6fa9-11ea-8697-860bc51cf7bb.PNG)
+  
+    ![캡쳐123](https://user-images.githubusercontent.com/62126380/87221286-cb891400-c3a5-11ea-9c37-4a43aeade614.jpg)
+  
+    
 
 ## 5. font-family
 
@@ -67,7 +67,7 @@
 
 - 꼭 **"글꼴후보 목록"**을 주고, **"글꼴계열"**을 필수로 지정해야 함
 
-- 종류
+- 글꼴계열
 
   - serif : 바탕체 계열(꼭따리 있는거)
   - sans-serif : 고딕체 계열
@@ -75,11 +75,13 @@
   - cursive : 필기쳬 계열
   - fantasy : 그림같은 문자
 
-- ex)
-
-  ``` 
-  font-family(Arial "open-sans", "돋움", sans-serif)
+  ``` CSS
+  font-family(Arial, "open-sans", "돋움", sans-serif)
+  /* 글꼴 후보 목록 : Arial "open-sans", "돋움", 
+     글꼴계열 : sans-serif
+  */
   ```
+
 
 # text
 
