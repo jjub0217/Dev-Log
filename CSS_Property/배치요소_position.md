@@ -1,4 +1,4 @@
-# 배치 (float/position/flex)
+# 배치2 (position)
 
 ## 2. position
 
