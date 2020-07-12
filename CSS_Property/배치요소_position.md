@@ -291,17 +291,129 @@
 
 #### ㅂ. 요소 쌓임순서(stack order)
 
-- 어떤 요소가 내 시선에서 더 가깝게 있는지를 결정한다.
+- 요소가 쌓여있는 순서를 통해서,  어떤 요소가 사용자가 보는 시선과 더 가깝게 있는지(더 위에 쌓이는지)를 결정
 
 - 쌓이는 규칙 : 
 
-  1. static 을 제외한 position의 속성값이 **"있을 경우"** 가장 위에 쌓임
+  1. static을 제외한 position의 속성값이 있을 경우 : 해당 position 이 부여 된것이 제일 위에 쌓인다.
 
-  2. position이 모든 요소에 존재한다면,  z-index 속성의 숫자가 높을수록 가장 위에 쌓이는 개념으로 만들수 있음
+     ![캡쳐128](https://user-images.githubusercontent.com/62126380/87247807-061bab00-c491-11ea-82ce-fe029cf80105.jpg) 
+
+     ```html
+     <div class="box-group">
+             <div class="box box1">1</div>
+             <div class="box box2">2</div>
+             <div class="box box3">3</div>
+             <div class="box box4">4</div><!--<- position을 준 요소: 가장 위에 쌓임-->
+             <div class="box box5">5</div>
+     </div>
+     ```
+
+     ```css
+     .box1 {
+                 color: black;
+     }
+     
+     .box2 {
+         color: black;
+     }
+     
+     .box3 {
+         position: relative;
+     }
+     
+     .box4 {
+         position: relative;
+     }
+     
+     .box5 {
+         color: black;
+     }
+     ```
+
+     2-1. position 이 동일하게 존재하는 경우 : z-index( position이 있어야만 사용이 가능 ) 라는 속성의 특정한 숫자 값이 가장 높은것이 제일 위에 쌓인다.
 
      -->>**(주의!!)** position 이 있어야만 사용이 가능
 
-  3. position 속성 값도 있고, z-index 값도 모두 같다면, 그 중에서 가장 늦게 작성된 코드가 가장 위에 쌓임
+     ![캡쳐129](https://user-images.githubusercontent.com/62126380/87247990-fbade100-c491-11ea-8751-a2fb3a0da939.JPG) 
 
-     ![캡처23](https://user-images.githubusercontent.com/62126380/78140700-6009df00-7465-11ea-9919-91194de1ffcc.PNG)
+     ```html
+     <div class="box-group">
+       <div class="box box1">1</div>
+       <div class="box box2">2</div>
+       <div class="box box3">3</div> <!--<- position이 동일하게 존재함 + z-index 부여/3번 박스가 제일 최상단-->
+       <div class="box box4">4</div> <!--<- position이 동일하게 존재함-->
+     <!-- position이 동일하게 존재할 경우에는 position과 z-index이 같이 존재하는 요소가 제일 위에 쌓인다. -->
+       <div class="box box5">5</div>
+     </div>
+     ```
+
+     ```css
+     .box1 {
+         color: black;
+     }
+     
+     .box2 {
+         color: black;
+     }
+     
+     .box3 {
+         position: relative;
+         z-index: 1;
+     }
+     
+     .box4 {
+         position: relative;
+     }
+     
+     .box5 {
+         color: black;
+     }
+     ```
+
+     2-2. position 이 동일하게 존재하는 경우 : z-index( position이 있어야만 사용이 가능 ) 라는 속성의 특정한 숫자 값이 가장 높은것이 제일 위에 쌓인다.
+
+     ![캡쳐130](https://user-images.githubusercontent.com/62126380/87248215-4419ce80-c493-11ea-8b32-7b7393c03bfa.JPG) 
+
+     ```html
+     <div class="box-group">
+       <div class="box box1">1</div> <!--<- position이 동일하게 존재함 + z-index 부여/1번 박스가 제일 최상단-->
+       <div class="box box2">2</div> <!--<- position이 동일하게 존재함 + z-index 부여 -->
+       <div class="box box3">3</div> <!--<- position이 동일하게 존재함 + z-index 부여-->
+       <div class="box box4">4</div> 
+     <!-- position이 동일하게 존재 + z-index도 동일하게 존재: z-index 숫자값이 제일 큰 요소가 제일 위에 쌓인다. -->
+       <div class="box box5">5</div>
+     </div>
+     ```
+
+     ```css
+     .box1 {
+         color: black;
+         position: relative;
+         z-index: 3;
+     }
+     
+     .box2 {
+         color: black;
+         position: relative;
+         z-index: 2;
+     }
+     
+     .box3 {
+         position: relative;
+         z-index: 1;
+     }
+     
+     .box4 {
+         position: relative;
+     }
+     
+     .box5 {
+         color: black;
+     }
+     ```
+
+3. position 이 동일하게 존재하며, z-index 값도 모두 동일할 경우 : HTML에서 가장 나중에 작성한 코드가 제일 위에 쌓인다.
+
+
 
