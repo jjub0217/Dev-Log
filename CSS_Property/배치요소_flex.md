@@ -1,4 +1,4 @@
-# 배치 (float/position/flex)
+# 배치3 (flex)
 
 ## 3. flex
 
@@ -24,7 +24,7 @@
 
           ex) 
 
-         ``` ex
+         ``` css
          .container1 {display:flex;}
          .container2 {display:flex;}
          ```
@@ -37,7 +37,7 @@
 
          ex)
 
-         ``` ex
+         ``` css
          .container1 {display:inline-flex}
          .container2 {display:inline-flex}
          ```
@@ -48,7 +48,7 @@
 
        ⓑ flex-flow (단축속성)
 
-       ``` ex
+       ``` css
        flex-flow: (flex-direction:row) (flex-wrap:no-wrap)
        ```
 
