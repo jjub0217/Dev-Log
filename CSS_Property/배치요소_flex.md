@@ -141,7 +141,7 @@
 
      ---
 
-     c.  justify-content ( 주 축의 정렬방법을 설정 )
+     c.  **<u>justify-content</u>** ( **주 축의 정렬방법을 설정** )
 
      ```html
      <div class="container ">
@@ -228,15 +228,30 @@
          } 		
          ```
 
----
+     ---
 
-​					ⓓ align - items / aling-content (align-content : 요소들이 여러 줄일 경우에만 사용)                                                                                                                 						( strech / flex-start / flex-end - center - space-between / space-around / baseline )
+     d. **<u>align-content</u>**  / **<u>align-items</u>** ( 교차 축의 정렬 방법을 설정 )
 
-​							■ 교차 축의 정렬방법을 설정
+     - **<u>align-content</u>** 
+       - flex-wrap 을 이용해서 item 이 2줄 이상이어야만, 그리고 여백이 있어야만 사용가능
+       - container의 높이가 fix 되서 여백이 있고 여러줄일때만 동작한다.
+         1. stretch
+          2. flex-start
+          3. flex-end
+          4. center
+         5. space-between
+         6. space-around
+        -  <u>**align-items**</u> 
+             - item이 한줄이어야만 사용가능
+               1. stretch
+                2. flex-start
+                3. flex-end
+                4. center
+               5. space-between
+               6. space-around
+               7. baseline
 
-​									① strech(기본값) : 부모의 높이를 세로로 꽉꽉 늘려서 채운다.
-
-![캡처39](https://user-images.githubusercontent.com/62126380/79686437-42b57d00-827b-11ea-93b9-6ca5f05d1fa8.PNG)
+![캡처39](https://user-images.githubusercontent.com/62126380/79686437-42b57d00-827b-11ea-93b9-6ca5f05d1fa8.PNG) 
 
 
 
