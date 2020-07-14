@@ -86,7 +86,7 @@
 
      ---
 
-     b. **<u>flex-flow</u>**( 단축속성 ) : " flex-flow : 주축(flex-direction) 여러줄묶음(flex-wrap) "
+     b. **<u>flex-flow</u>**( 단축속성 ) : *" flex-flow : 주축(flex-direction) 여러줄묶음(flex-wrap) "*
 
      ```css
      flex-flow: (flex-direction:row) (flex-wrap:no-wrap)
@@ -313,7 +313,81 @@
                 4. center
                5. baseline
 
-![캡처39 PNG](https://user-images.githubusercontent.com/62126380/87371512-83920900-c5c0-11ea-9f8e-c0d919471948.jpg)    
+![캡처39 PNG](https://user-images.githubusercontent.com/62126380/87371512-83920900-c5c0-11ea-9f8e-c0d919471948.jpg)   
 
+2. items ( container에 display의 flex를 부여한 상태의 내부 요소인 items )
 
+   - flex items 에 사용할 수 있는 속성
+
+     a. <u>**order**</u> ( flex items 의 순서를 설정)
+
+     - 각각의 item 의 순서를 설정
+
+     - HTML 구조 순서 상관없이 순서 변경 가능
+
+     - item에 숫자를 지정하여 해당 그 숫자가 작을수록 앞으로 온다. 
+
+     - 음수 사용 가능
+
+     - 예시 ![캡처132](https://user-images.githubusercontent.com/62126380/87424183-80c20300-c616-11ea-9811-f0f18928bcb4.PNG)  
+
+       ```html
+       <div class="container ">
+           <div class="item item1">1</div>
+           <div class="item item2">2</div>
+           <div class="item item3">3</div>
+           <div class="item item4">4</div>
+           <div class="item item5">5</div>
+           <div class="item item6">6</div>
+       </div>
+       ```
+
+       ```css
+       .item1 {
+           order: 1;
+       }
+       
+       .item4 {
+           order: 1;
+       }
+       
+       .item6 {
+           order: -1;
+       }
+       ```
+
+     b. flex( 단축속성 ) : *" flex: 증가너비 비율(flex-glow) 감소너비 비율(flex-shrink) 기본너비(flex-basis) "*
+
+     1. flex-glow : flex-item 의 증가너비 비율 설정
+
+        ![캡쳐200](https://user-images.githubusercontent.com/62126380/87425464-ab14c000-c618-11ea-8ff6-4ec16d5a36a3.PNG) 
+
+        ```html
+         <div class="container1">
+            <div class="item item1">1</div>
+            <div class="item item2">2</div>
+            <div class="item item3">3</div>
+        
+        </div>
+        ```
+
+        ```css
+         .container1 .item1 {
+            flex-grow: 5; /*<- 50% = 5/(5 + 4 + 1) */
+        }
+        .container1 .item2 {
+            flex-grow: 4; /*<- 40% = 4/(5 + 4 + 1) */
+        }
+        
+        .container1 .item3 {
+            flex-grow: 1; /*<- 10% = 1/(5 + 4 + 1) */
+        }
+        
+        ```
+
+     2. flex-shrink : flex-item 의 감소너비 비율 설정
+
+     3. flex-basis : flex-item 의 기본너비 비율 설정
+
+     c. align-self : item 하나에만 일시적으로 설정 ( 교차축에서 item의 정렬 방법 설정 )
 
