@@ -22,6 +22,8 @@
 
         - flex : ( container 가 **block 요소화가 된다: 수직정렬** ) flex container가 되면서 container 내부에 items 생성
 
+        - container 에 display : flex 를 부여하면 내부의 item 들은 수평정렬이 된다.
+
         - 예시
 
           ```html
@@ -230,28 +232,88 @@
 
      ---
 
-     d. **<u>align-content</u>**  / **<u>align-items</u>** ( 교차 축의 정렬 방법을 설정 )
+     d. <u>align-content</u>  / **<u>align-items</u>** ( 교차 축의 정렬 방법을 설정 )
 
      - **<u>align-content</u>** 
-       - flex-wrap 을 이용해서 item 이 2줄 이상이어야만, 그리고 여백이 있어야만 사용가능
+
+       - **<u>"flex-wrap 을 이용해서 item 이 2줄 이상이어야만, 그리고 여백이 있어야만 사용가능"</u>**
+
        - container의 높이가 fix 되서 여백이 있고 여러줄일때만 동작한다.
-         1. stretch
+
+         ```html
+         <div class="container ">
+             <div class="item">A</div>
+             <div class="item">B</div>
+             <div class="item">C</div>
+             <div class="item">D</div>
+             <div class="item">E</div>
+             <div class="item">F</div>
+         </div>
+         ```
+
+         ```css
+         .container {
+             display: flex;	/*<- container에 display flex 를 부여하고,*/
+             flex-wrap: wrap;/*<- flex-wrap 으로 두줄을 만들고,*/
+             align-content: center;/*<- 두줄이며, 여백이 있으므로 "align-content" 를 사용해서 정렬*/
+             							
+         }
+         
+         .container .item {
+             width: 120px;
+             height: 100px;
+             background: tomato;
+         }
+         ```
+
+         1. stretch( 기본값 )
           2. flex-start
           3. flex-end
           4. center
          5. space-between
          6. space-around
+
         -  <u>**align-items**</u> 
+
              - item이 한줄이어야만 사용가능
-               1. stretch
+
+             - align-content 속성을 기본값 stretch 로 해야만 사용가능 
+
+               ```html
+               <div class="container ">
+                   <div class="item">A</div>
+                   <div class="item">B</div>
+                   <div class="item">C</div>
+                   <div class="item">D</div>
+                   <div class="item">E</div>
+                   <div class="item">F</div>
+               </div>
+               ```
+
+               ```css
+               .container {
+                   display: flex; /*<- 내부에 있는 item들을 수평정렬 하기 위해 display flex 를 부여*/
+               }
+               
+               .container .item {
+                   width: 120px;
+                   height: 100px;
+                   background: tomato;
+                   display: flex; /*<- item 에 삽입되어있는 텍스트들을 중앙정렬 하기 위해, 
+                   					item들도 container화 하기 위해 display flex 를 부여*/
+                   justify-content: center; /*<- 현재 주축이 가로축이기 때문에 가로축을 주축으로 가운데 정렬시킴*/
+                   align-items: center; /*<- 가로축에서 중앙정렬이 된 텍스트들을 세로축에서도 중앙정렬을 시키기 위헤
+                   						   align-items center 를 부여*/
+               }
+               ```
+
+               1. stretch( 기본값 )
                 2. flex-start
                 3. flex-end
                 4. center
-               5. space-between
-               6. space-around
-               7. baseline
+               5. baseline
 
-![캡처39](https://user-images.githubusercontent.com/62126380/79686437-42b57d00-827b-11ea-93b9-6ca5f05d1fa8.PNG) 
+![캡처39 PNG](https://user-images.githubusercontent.com/62126380/87371512-83920900-c5c0-11ea-9f8e-c0d919471948.jpg)    
 
 
 
