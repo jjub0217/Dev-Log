@@ -25,26 +25,26 @@
 ``` html
   <div class="child1"></div>
   <div class="child2"></div>
-  ```
-  
+```
+
 ```css
-  .child1{
-    float: left;
-      width: 100px;
-      height: 100px;
-      background: red;
-  }
-  .child2{
-      width: 200px;
-      height: 200px;
-      background: blue;
-  }
-  ```
-  
+.child1{
+float: left;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.child2{
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+```
+
   ![캡처15](https://user-images.githubusercontent.com/62126380/78239729-0c58cd80-7519-11ea-98b1-5f81e8a2d27b.PNG)
-  
+
   ===>> child1 에 라인박스가 생김.  -> 붕 뜬 child1 뒤에 child2 가 밀려 올라감.
-  
+
 - 첫번째, 두번째 모든 자식요소에 float 적용
 
   ``` html
@@ -82,7 +82,9 @@
 
 - clear 의 속성값으로 none , left, right 값을 지정
 
-- float 지정한 요소의 **다음 형제**에게 지정
+- float 지정한 요소의 **다음 형제**에게 지정 -> float를 지정한 요소한테 준 padding 값과 다음형제 요소한테 준  margin값이 같으면, 해당 margin 값만큼 벌어지지 않는다. 효과가없다. : 마진겹침으로 인해 효과가 없게 된다.   
+
+  -> 다음 형제요소한테, float 준 요소에게 부여해준 padding 값보다 큰 값을 margin에 줘야 한다.
 
 - 예제
 
@@ -144,7 +146,15 @@
 
 - 부모 요소에 ***"overflow: (hedden 또는 auto)"*** 추가
 
-- 이건 float 와 아무 상관없은 속성이라서 이걸 사용하는 건 편법으로 사용하는것이므로 추천하지 않는다.
+- 이건 float 와 아무 상관없는 속성이라서 이걸 사용하는 건 편법으로 사용하는것이므로 추천하지 않는다.
+
+- 부모 요소의 크기를 결정하고, 해당 부모 요소에 overflow : hidden 을 주면 -> 본디, 자식요소가 부모요소보다 커서 넘치게 될때 그 넘친 자식요소의 부분을 감추는 속성인데,
+
+  => 만약 애초에 부모요소의 가로너비를 fix, 세로너비는 auto 로 고정해주지 않는다면 자식요소의 높이만큼 같이 늘어나게 된다. (자식요소의 높이를 찾아와야 한다)
+
+  => 그런데 부모요소에 overflow : hidden 을 주면 float 해서 높이를 잃어버린 자식요소가 높이를 찾게 되고, overflow : hidden 준 부모요소도 높이를 찾게 되어 해당 이슈를 해결하게 된다.  
+
+  ==>>>> 하지만, 이 방법은 단지 높이를 찾기위해서 쓰는 방법이므로 추천하지 않는다.
 
 - 예제
 
@@ -204,6 +214,8 @@
   
 
 ㄷ. 부모요소, 자식 요소 둘다 float  지정
+
+- 단지 높이를 읽어들이기 위해서 하는 방법이기때문에 추천하지 않는다.
 
 <u>**ㄹ. clearfix("float 해제 방법 추천!!!")**</u>
 
