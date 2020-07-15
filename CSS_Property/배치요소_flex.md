@@ -356,7 +356,7 @@
        }
        ```
 
-     b. flex( 단축속성 ) : *" flex: 증가너비 비율(flex-glow) 감소너비 비율(flex-shrink) 기본너비(flex-basis) "*
+     b. flex( 단축속성 ) : *" flex: *증가너비 비율(flex-glow: 기본값 0) 감소너비 비율(flex-shrink: 기본값 1) 기본너비(flex-basis: 기본값 auto)"* *
 
      1. flex-glow : flex-item 의 증가너비 비율 설정
 
