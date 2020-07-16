@@ -36,7 +36,7 @@
 
   
 ### ㄴ. relative 
-  
+
 - **요소 자신을 기준으로 배치**
   
 - 자기 자신 스스로를 배치될 기준으로 삼음
@@ -61,7 +61,7 @@
     <div class="box">1</div>
   <div class="box relative">2</div>
     <div class="box">3</div>
-    ```
+  ```
   
     ```css
     .box {
@@ -197,56 +197,56 @@
   -> 다음 형제요소가 공중에 붕~~ 뜨게 된 요소가 원래 있던 위치에 밀려 들어가게 됨
 
   ```html
-<div class="grand-parent">
-      <div class="parent">
-        <div class="child">1</div>
-          <div class="child absolute">2</div>
-        <div class="child" style="width: 150px; height: 100px;">3</div>
-      </div>
-</div>
+  <div class="grand-parent">
+        <div class="parent">
+          <div class="child">1</div>
+            <div class="child absolute">2</div>
+          <div class="child" style="width: 150px; height: 100px;">3</div>
+        </div>
+  </div>
   ```
   
   ```css
   .grand-parent {
-      width: 400px;
-      height: 300px;
-      padding: 30px 100px 100px 30px;
-      border: 4px dashed lightgray;
-  
-  }
-  
-  .parent {
-      width: 400px;
-      height: 300px;
-      border: 4px dashed gray;
-      position: relative;
-  }
-  
-  .child {
-      width: 120px;
-      height: 80px;
-      background: tomato;
-      border: 4px dashed red;
-      border-radius: 10px;
-      font-size: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  .absolute {
-      position: absolute; /*<- absolute는 부모요소를 기준으로 하기 때문에 부모요소를 기준으로 배치될 준비 된 상태.
-      					그렇기 때문에 형제요소들에게 영향을 주고받지 않게 된다.
-      					그래서 absolute 하면 공중에 부웅- 뜬 상태이고, absolute 적용한 요소의 다음 형제 요소는
-      					밀려서 그 밑으로 올라가게 된다. */  
-      background: tomato;
-      bottom: 50px;
-      right: 10px;
-  }
+        width: 400px;
+        height: 300px;
+        padding: 30px 100px 100px 30px;
+        border: 4px dashed lightgray;
+    
+    }
+    
+    .parent {
+        width: 400px;
+        height: 300px;
+        border: 4px dashed gray;
+        position: relative;
+    }
+    
+    .child {
+        width: 120px;
+        height: 80px;
+        background: tomato;
+        border: 4px dashed red;
+        border-radius: 10px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .absolute {
+        position: absolute; /*<- absolute는 부모요소를 기준으로 하기 때문에 부모요소를 기준으로 배치될 준비된 상태.
+        						그렇기 때문에 형제요소들에게 영향을 주고받지 않게 된다.
+        						그래서 absolute 하면 공중에 부웅- 뜬 상태이고, absolute적용한 요소의 다음 형제요소는
+        						밀려서 그 밑으로 올라가게 된다. */  
+        background: tomato;
+        bottom: 50px;
+        right: 10px;
+    }  
   ```
-  
+
   ![캡처22](https://user-images.githubusercontent.com/62126380/78134093-8aa26a80-745a-11ea-848f-3f81aca3e426.PNG) 
-  
+
 
 ---
 
