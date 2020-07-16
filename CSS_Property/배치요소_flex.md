@@ -101,8 +101,8 @@
            ---
          
 - 수직정렬 : colum ( 위 -> 아래 ) /cloumn-reverse( 아래 -> 위)
-    
-   	  **"column"**                       ![캡처32](https://user-images.githubusercontent.com/62126380/79681217-5fd65580-8253-11ea-99be-e4859d967284.PNG)                      **"column-reverse"**            ![캡처33](https://user-images.githubusercontent.com/62126380/79681250-b80d5780-8253-11ea-998d-9ddfb18f3dd5.PNG) 
+	
+	**column"**		![캡처32](https://user-images.githubusercontent.com/62126380/79681217-5fd65580-8253-11ea-99be-e4859d967284.PNG) **"column-reverse"** ![캡처33](https://user-images.githubusercontent.com/62126380/79681250-b80d5780-8253-11ea-998d-9ddfb18f3dd5.PNG) 
     
     ---
 2. flex-wrap ( item 들의 줄을 여러줄 혹은 안 여러줄로 설정)
