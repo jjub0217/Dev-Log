@@ -237,8 +237,8 @@
     .absolute {
         position: absolute; /*<- absolute는 부모요소를 기준으로 하기 때문에 부모요소를 기준으로 배치될 준비된 상태.
         						그렇기 때문에 형제요소들에게 영향을 주고받지 않게 된다.
-        						그래서 absolute 하면 공중에 부웅- 뜬 상태이고, absolute적용한 요소의 다음 형제요소는
-        						밀려서 그 밑으로 올라가게 된다. */  
+        						그래서 absolute 하면 공중에 부웅- 뜬 상태이고, absolute 를 적용한 요소의
+        						다음 형제요소는 밀려서 그 밑으로 올라가게 된다. */  
         background: tomato;
         bottom: 50px;
         right: 10px;
