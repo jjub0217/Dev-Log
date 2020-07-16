@@ -98,29 +98,33 @@
 
            **"row"**           ![캡처30](https://user-images.githubusercontent.com/62126380/79681052-8bf0d700-8251-11ea-84d8-95129a128ad5.PNG) **"row-reverse"** ![캡처31](https://user-images.githubusercontent.com/62126380/79681114-3832bd80-8252-11ea-8be3-d4edc402ca95.PNG)
 
-         - 수직정렬 : colum ( 위 -> 아래 ) /cloumn-reverse( 아래 -> 위)
-           **"column"**                       ![캡처32](https://user-images.githubusercontent.com/62126380/79681217-5fd65580-8253-11ea-99be-e4859d967284.PNG)                      **"column-reverse"**            ![캡처33](https://user-images.githubusercontent.com/62126380/79681250-b80d5780-8253-11ea-998d-9ddfb18f3dd5.PNG)
-
-     	2. flex-wrap ( item 들의 줄을 여러줄 혹은 안 여러줄로 설정)
-
+           ---
+         
+- 수직정렬 : colum ( 위 -> 아래 ) /cloumn-reverse( 아래 -> 위)
+     	  **"column"**                       ![캡처32](https://user-images.githubusercontent.com/62126380/79681217-5fd65580-8253-11ea-99be-e4859d967284.PNG)                      **"column-reverse"**            ![캡처33](https://user-images.githubusercontent.com/62126380/79681250-b80d5780-8253-11ea-998d-9ddfb18f3dd5.PNG) 
+  
+           ---
+         
+2. flex-wrap ( item 들의 줄을 여러줄 혹은 안 여러줄로 설정)
+         
          - container 안에 들어있는 각각의 item 들을 여러줄로 할것인지, 한줄로 할것인지 설정
          - container 안에 있는 item들의 가로너비는 container의 가로 너비에 따라 크기가 가변할 수 있다. 
-
-         - 속성값
+         
+- 속성값
            - nowrap( 한줄에 표시)
            - wrap ( 여러줄에 표시 )
-           - wrap-reverse
-
+           - wrap-reverse (역방향으로 여러줄에 표시) : wrap 한 줄을 앞뒤로 뒤바꿈
+         
          ```html
          <div class="container ">
              <div class="item">A</div>
              <div class="item">B</div>
              <div class="item">C</div>
-             <div class="item">D</div>
+    <div class="item">D</div>
              <div class="item">E</div>
          </div>
          ```
-
+         
          ```css
          .container {
              border: 4px solid;
@@ -136,25 +140,25 @@
                                  flex-basis 값이 auto인 경우에는 가로세로너비 가 가변된다. */
              height: 100px;
              background: tomato;
-             border: 4px dashed red;
+        border: 4px dashed red;
              border-radius: 10px;
-         }
+    }
          ```
 
      ---
-
-     c.  **<u>justify-content</u>** ( **주 축의 정렬방법을 설정** )
-
+     
+     c.  **<u>justify-content</u>** ( **주 축(메인축)의 정렬방법을 설정** )
+     
      ```html
      <div class="container ">
          <div class="item">A</div>
-         <div class="item">B</div>
+    <div class="item">B</div>
          <div class="item">C</div>
-     </div>
+</div>
      ```
-
+     
       1. flex-start : 시작점을 기준으로 해서 왼쪽 정렬 ![캡처34](https://user-images.githubusercontent.com/62126380/79681853-a0849d80-8258-11ea-8121-d7ed905d0ff3.PNG) 
-
+     
          ```css
          .container {
              border: 1px solid red;
@@ -163,13 +167,13 @@
          
          .container .item {
              width: 100px;
-             height: 100px;
+        height: 100px;
              border: 1px solid;
-         } 
+    } 
          ```
-
+     
       2. flex-end : 끝점을 기준으로 해서 오른쪽 정렬 ![캡처35](https://user-images.githubusercontent.com/62126380/79681884-ee010a80-8258-11ea-9060-7bab3ea1bfd8.PNG)
-
+     
          ```css
          .container {
              border: 1px solid red;
@@ -178,13 +182,13 @@
          
          .container .item {
              width: 100px;
-             height: 100px;
+        height: 100px;
              border: 1px solid;
-         } 
+    } 
          ```
-
+     
       3. center : 가운데 정렬  ![캡처36](https://user-images.githubusercontent.com/62126380/79681917-31f40f80-8259-11ea-8c78-8bf9d4180290.PNG) 
-
+     
          ```css
          .container {
              border: 1px solid red;
@@ -193,15 +197,15 @@
          
          .container .item {
              width: 100px;
-             height: 100px;
+        height: 100px;
              border: 1px solid;
-         } 
+    } 
          ```
 
       4. space-between  ![캡처37](https://user-images.githubusercontent.com/62126380/79682005-c8c0cc00-8259-11ea-9350-4abdcccea2d5.PNG) 
-
+     
          - 첫번째와, 마지막 아이템을 각각 시작점과 끝점에 붙히고, 남은 여백을 균등하게 가운데 정렬
-
+     
          ```css
          .container {
              border: 1px solid red;
@@ -210,13 +214,13 @@
          
          .container .item {
              width: 100px;
-             height: 100px;
+        height: 100px;
              border: 1px solid;
-         } 				   
+    } 				   
          ```
-
+     
       5. space-around : 쓸데없는 여백없이 꽉꽉 채워서 가운데 정렬 ![캡처38](https://user-images.githubusercontent.com/62126380/79682049-20f7ce00-825a-11ea-91c0-8a11f8b91af7.PNG) 
-
+     
          ```css
          .container {
              border: 1px solid red;
@@ -225,9 +229,9 @@
          
          .container .item {
              width: 100px;
-             height: 100px;
+        height: 100px;
              border: 1px solid;
-         } 		
+    } 		
          ```
 
      ---
@@ -237,20 +241,20 @@
      - **<u>align-content</u>** 
 
        - **<u>"flex-wrap 을 이용해서 item 이 2줄 이상이어야만, 그리고 여백이 있어야만 사용가능"</u>**
-
+     
        - container의 높이가 fix 되서 여백이 있고 여러줄일때만 동작한다.
-
+     
          ```html
          <div class="container ">
              <div class="item">A</div>
              <div class="item">B</div>
              <div class="item">C</div>
              <div class="item">D</div>
-             <div class="item">E</div>
+        <div class="item">E</div>
              <div class="item">F</div>
          </div>
          ```
-
+     
          ```css
          .container {
              display: flex;	/*<- container에 display flex 를 부여하고,*/
@@ -261,35 +265,35 @@
          
          .container .item {
              width: 120px;
-             height: 100px;
+        height: 100px;
              background: tomato;
          }
          ```
-
+     
          1. stretch( 기본값 )
           2. flex-start
-          3. flex-end
+     3. flex-end
           4. center
-         5. space-between
+    5. space-between
          6. space-around
 
         -  <u>**align-items**</u> 
 
              - item이 한줄이어야만 사용가능
-
+     
              - align-content 속성을 기본값 stretch 로 해야만 사용가능 
-
+     
                ```html
                <div class="container ">
                    <div class="item">A</div>
                    <div class="item">B</div>
                    <div class="item">C</div>
                    <div class="item">D</div>
-                   <div class="item">E</div>
+              <div class="item">E</div>
                    <div class="item">F</div>
                </div>
                ```
-
+     
                ```css
                .container {
                    display: flex; /*<- 내부에 있는 item들을 수평정렬 하기 위해 display flex 를 부여*/
@@ -302,11 +306,11 @@
                    display: flex; /*<- item 에 삽입되어있는 텍스트들을 중앙정렬 하기 위해, 
                    					item들도 container화 하기 위해 display flex 를 부여*/
                    justify-content: center; /*<- 현재 주축이 가로축이기 때문에 가로축을 주축으로 가운데 정렬시킴*/
-                   align-items: center; /*<- 가로축에서 중앙정렬이 된 텍스트들을 세로축에서도 중앙정렬을 시키기 위헤
+              align-items: center; /*<- 가로축에서 중앙정렬이 된 텍스트들을 세로축에서도 중앙정렬을 시키기 위헤
                    						   align-items center 를 부여*/
                }
                ```
-
+     
                1. stretch( 기본값 )
                 2. flex-start
                 3. flex-end
