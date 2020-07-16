@@ -15,11 +15,13 @@
   3. text-align (글자정렬)
   4. text-indent (글자 들여쓰기)
   5. text-decoration (글자 밑줄)
-  6. letter-spacing ()
-  7. opacity ()
+  6. letter-spacing (띄어쓰기)
+  7. opacity (투명도)
 - 상속안되는 요소
   1. position / display 등 배치 요소
   2. rem 단위
+- 내가 직접 요소에 부여한 것이 우선순위다. 
+  - 내가 직접 요소에 부여 > 부모 요소로부터 상속
 
 ### 강제상속
 
