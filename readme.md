@@ -19,9 +19,9 @@ CSS_Property : CSS의 속성들 관련하여 배운 내용들 + 복습 내용 + 
 - [background](https://github.com/jjub0217/TIL/blob/master/CSS_Property/background.md)
 - [font](https://github.com/jjub0217/TIL/blob/master/CSS_Property/font.md)
 - [박스모델](https://github.com/jjub0217/TIL/blob/master/CSS_Property/박스모델.md)
-- [배치요소-float](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소-float.md)
-- [배치요소-position](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소-position.md)
-- [배치요소-flex](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소-flex.md)
+- [배치요소__float](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소__float.md)
+- [배치요소__position](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소__position.md)
+- [배치요소__flex](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소__flex.md)
 - [미디어쿼리](https://github.com/jjub0217/TIL/blob/master/CSS_Property/미디어쿼리.md)
 
 ---
