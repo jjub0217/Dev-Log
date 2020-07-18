@@ -50,7 +50,7 @@
           line-height: 2;
     }
       /* box1 과 box2 는 같다. */
-      ```
+    ```
     
   - 단위
   
@@ -154,7 +154,11 @@ text-indent: -9999px;
 
 - 단어와 단어 사이의 간격 너비를 설정
 
-## 7. font-transform 
+## 7. white-space
+
+- 공백문자 
+
+## 8. font-transform 
 
 - uppercase : 소문자로 쓰인 요소를 대문자로 바꾸게 할 수 있다. 
 
