@@ -12,7 +12,9 @@
 
 - **float 속성을 적용하면, 대부분의 inline 요소들은 display 성격이 block 으로 변경된다.** 
 
-  **--> 하지만, 요소가 flex , inline-flex 인것에는 display 의 성격 변경 효과가 없다.** 
+  - width, height, margin , padding 속성 적용가능
+
+    **--> 하지만, 요소가 flex , inline-flex 인것에는 display 의 성격 변경 효과가 없다.** 
 
 - ㄱ. none
 
