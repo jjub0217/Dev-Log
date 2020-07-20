@@ -147,3 +147,20 @@ backround: red url("--") no-repeat right 100px
 /*----> 조금 더 짧은 height 값에 배경이미지가 맞추어짐*/
 ```
 
+
+
+---
+
+### 7. linear-gradient
+
+- 두 개 이상의 색이 직선을 따라서 변화하는 이미지를 생성시키는 **<u>함수</u>**.
+
+- "linear-gradient(-----------------)" 
+- 축의 시작점을 지정하려면 **'to'** 라는 단어 뒤에 **<u>방향</u>**을(<u>최대 두개</u>) 나타내는 키워드 를 사용해야 한다. 
+  - to + 수직방향 :
+    - top = 0 deg
+    - bottom = 180deg
+  - to + 수평방향 :
+    - left = 270deg
+    - right = 90deg
+
