@@ -1,3 +1,5 @@
+
+
 # (글꼴,문자)
 
 # font 
@@ -172,7 +174,11 @@ text-indent: -9999px;
 
   - 색상은 어디에 적어도 상관없지만 x축, y축, blur-radius 순서를 꼭 지켜야 한다.<br>x축, y축, blur-radius 중에 하나를 빼먹으면 해당 순서위치의 shadow 속성이  생략된다. 
 
-    
+    ![캡쳐203](https://user-images.githubusercontent.com/62126380/87939380-f4f71d80-cad2-11ea-9cc0-1b03b2577a9e.PNG) ![캡쳐204](https://user-images.githubusercontent.com/62126380/87939450-0f30fb80-cad3-11ea-83d6-f67eed473b9f.PNG) !
+
+![캡쳐205](https://user-images.githubusercontent.com/62126380/87939831-9a11f600-cad3-11ea-8688-ed17473d5849.PNG) ![image-20200720215833828](C:\Users\강호승\AppData\Roaming\Typora\typora-user-images\image-20200720215833828.png)
+
+​     
 
 # color
 
