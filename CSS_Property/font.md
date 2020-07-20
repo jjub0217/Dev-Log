@@ -162,6 +162,18 @@ text-indent: -9999px;
 
 - uppercase : 소문자로 쓰인 요소를 대문자로 바꾸게 할 수 있다. 
 
+## 9. text-shadow
+
+- 텍스트에 그림자 효과를 적용
+
+- 흐림 반경 및 색상의 X 축 및 Y축의 조합으로 적용된다.
+
+- 사용법 (x축: 왼->오 / y축: 위->아래 / blur-radius(번짐정도) / 색상 )
+
+  - 색상은 어디에 적어도 상관없지만 x축, y축, blur-radius 순서를 꼭 지켜야 한다.<br>x축, y축, blur-radius 중에 하나를 빼먹으면 해당 순서위치의 shadow 속성이  생략된다. 
+
+    
+
 # color
 
 ## 1. hsla
