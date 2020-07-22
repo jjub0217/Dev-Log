@@ -77,6 +77,7 @@
    - span ( 키보드 접근 불가능하다 : ⓛ 키보드 접근 하려면 tabindex 속성 부여해야 한다.  / ② role 속성을 "button" 값을 부여해야 한다. )
    - img
    - a ( 인터렉티브 요소 )
+     - 범용적인 태그<br>a 태그 안에는 다른 정보들이 들어갈수 있다. 
    - figure / figcaption
    - dfn
    - label
