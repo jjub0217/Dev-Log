@@ -12,6 +12,7 @@
      * line-height (줄 높이)
      * fone-family (폰트)
   2. 컬러(폰트)
+     - 원래 font 의 color 는 상속이 되는 속성이지만, button 에는 상속이 안먹는다. <br>하여, botton 에는 color 를 직접 부여하거나, 상속을 받고 싶다면 color: inherit 속성값을 부여하면 된다.
   3. text-align (글자정렬)
   4. text-indent (글자 들여쓰기)
   5. text-decoration (글자 밑줄)
