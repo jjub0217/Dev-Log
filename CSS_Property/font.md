@@ -16,9 +16,9 @@
 
 ## 1. font-style (글자 기울기)
 
-ㄱ. nomal
+ㄱ. normal
 
-ㄴ. italic
+ㄴ. italic 
 
 ## 2. font-weight (글자 두께)
 
