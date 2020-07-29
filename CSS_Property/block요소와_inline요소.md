@@ -16,7 +16,7 @@
 
    - p / pre / blockquote
 
-   - 영역을 설정하는 태그
+   -  영역을 설정하는 태그
 
      - header / main / footer
      - article
