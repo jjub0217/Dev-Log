@@ -4,7 +4,7 @@
 
 ***
 
-- 데코레이션 요소가 상속됨(대부분 글자를 다루는 속성들)
+- Design property가 상속됨(대부분 text를 다루는 property들)
   1. 폰트
      * font-size (글자크기)
      * font-weight (글자두께)
