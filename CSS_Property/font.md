@@ -182,6 +182,10 @@ text-indent: -9999px;
 
 ​     
 
+## 10. text-overflow
+
+
+
 # color
 
 ## 1. hsla
