@@ -266,7 +266,7 @@ var line = 5;
 var str = '';
 
 for (let i = 0; i <= line; i++) {
-        for (let j = 1; j < 6; j++) {
+        for (let j = 1; j < line + 1; j++) {
                 if (i < j) {
                         str += '*';
                 } else {
@@ -332,7 +332,7 @@ var line = 5;
 var str = '';
 
 for (let i = 5; i >= 1; i--) {
-	for (let j = 1; j < 6; j++) {
+	for (let j = 1; j < line + 1; j++) {
 		if (i <= j) {
             str += '*';
                 } else {
@@ -354,5 +354,57 @@ console.log(str);
   *****
  *******
 *********
+```
+
+**Answer**
+
+```javascript
+var line = 5;
+var str = '';
+for (let i = 0; i < line; i++) {
+  for (let k = line; k > i + 1; k--) {
+    str += ' ';
+  }
+  for (let j = 0; j < i + 1; j++) {
+    if (j === 0) str += '*';
+    else str += '**';
+  }
+  str += '\n';
+}
+console.log(str);
+```
+
+### 16. 역정삼각형 출력하기
+
+**Question**
+
+```javascript
+*********
+ *******
+  *****
+   ***
+    *
+```
+
+**Answer**
+
+```javascript
+var line = 5;
+var str = '';
+
+for (let i = 0; i <= line; i++) {
+    for (let j = 0; j < i; j++) {
+        str += ' ';
+    }
+        for (let k = line; k > i; k--) {
+            if (k === line) {
+                str += '*';
+            } else {
+                str += '**';
+            }
+        }
+        str += '\n';
+    }
+    console.log(str);
 ```
 
