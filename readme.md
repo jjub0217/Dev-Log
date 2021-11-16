@@ -41,9 +41,6 @@ HTML_ATTRIBUTE : HTML 속성들 광련하여 배운 내용들 + 복습 내용 + 
 JAVA_Script : JAVA_Script 관련하여 배운 내용들 + 복습 내용 + 예습 내용 + 과제  내용 정리한 md파일들의 집합소
 
 - [assignment](https://github.com/jjub0217/TIL/tree/master/JAVA_Script/assignment) : 과제
-
-  <br>
-
 <!DOCTYPE html>
 <html lang="en">
 <body>
