@@ -10,19 +10,19 @@
 
 CSS_Property : CSS의 속성들 관련하여 배운 내용들 + 복습 내용 + 공부한 내용 정리한 md파일들의 집합소
 
-- [CSS의 3대 개념](https://github.com/jjub0217/TIL/blob/master/CSS_Property/CSS의_3대_개념.md)
-- [선택자](https://github.com/jjub0217/TIL/blob/master/CSS_Property/선택자.md)
-- [속성 선택자](https://github.com/jjub0217/TIL/blob/master/CSS_Property/속성_선택자.md)
-- [가상 클래스 선택자](https://github.com/jjub0217/TIL/blob/master/CSS_Property/가상_클래스_선택자.md)
-- [가상 요소 선택자](https://github.com/jjub0217/TIL/blob/master/CSS_Property/가상_요소_선택자.md)
-- [단위](https://github.com/jjub0217/TIL/blob/master/CSS_Property/단위.md)
-- [background](https://github.com/jjub0217/TIL/blob/master/CSS_Property/background.md)
-- [font](https://github.com/jjub0217/TIL/blob/master/CSS_Property/font.md)
-- [박스모델](https://github.com/jjub0217/TIL/blob/master/CSS_Property/박스모델.md)
-- [배치요소_float](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소_float.md)
-- [배치요소_position](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소_position.md)
-- [배치요소_flex](https://github.com/jjub0217/TIL/blob/master/CSS_Property/배치요소_flex.md)
-- [미디어쿼리](https://github.com/jjub0217/TIL/blob/master/CSS_Property/미디어쿼리.md)
+- [CSS의 3대 개념](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/CSS%EC%9D%98_3%EA%B0%80%EC%A7%80_%EC%A4%91%EC%9A%94%ED%95%9C_%EA%B0%9C%EB%85%90.md)
+- [선택자](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EC%84%A0%ED%83%9D%EC%9E%90.md)
+- [속성 선택자](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EC%86%8D%EC%84%B1_%EC%84%A0%ED%83%9D%EC%9E%90.md)
+- [가상 클래스 선택자](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EA%B0%80%EC%83%81_%ED%81%B4%EB%9E%98%EC%8A%A4_%EC%84%A0%ED%83%9D%EC%9E%90.md)
+- [가상 요소 선택자](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EA%B0%80%EC%83%81_%EC%9A%94%EC%86%8C_%EC%84%A0%ED%83%9D%EC%9E%90.md)
+- [단위](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EB%8B%A8%EC%9C%84.md)
+- [background](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/background.md)
+- [font](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/font.md)
+- [박스모델](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EB%B0%95%EC%8A%A4%EB%AA%A8%EB%8D%B8.md)
+- [배치요소_float](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EB%B0%B0%EC%B9%98%EC%9A%94%EC%86%8C_float.md)
+- [배치요소_position](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EB%B0%B0%EC%B9%98%EC%9A%94%EC%86%8C_position.md)
+- [배치요소_flex](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EB%B0%B0%EC%B9%98%EC%9A%94%EC%86%8C_flex.md)
+- [미디어쿼리](https://github.com/jjub0217/Dev-Log/blob/master/CSS_Property/%EB%AF%B8%EB%94%94%EC%96%B4%EC%BF%BC%EB%A6%AC.md)
 
 ---
 
